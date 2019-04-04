@@ -39,10 +39,15 @@
       <file leaf-file-name="Gopkg.toml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gopkg.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
+            <state relative-caret-position="298">
               <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aspenmesh-boilerplate.go.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aspenmesh-boilerplate.go.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Gopkg.lock" pinned="false" current-in-tab="false">
@@ -205,9 +210,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aspenmesh-boilerplate.go.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gopkg.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="298">
           <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
