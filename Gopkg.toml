@@ -45,7 +45,7 @@ required = [
 
 [[constraint]]
   name = "istio.io/api"
-  version = "1.0.6"
+  version = "1.1"
 
 [[constraint]]
   name = "k8s.io/client-go"

@@ -39,8 +39,8 @@
       <file leaf-file-name="Gopkg.toml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gopkg.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="148">
+              <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -54,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/Gopkg.lock">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="43">
-              <caret line="375" column="33" selection-start-line="375" selection-start-column="33" selection-end-line="375" selection-end-column="33" />
+              <caret line="406" column="33" selection-start-line="406" selection-start-column="33" selection-end-line="406" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -206,7 +206,7 @@
     <entry file="file://$PROJECT_DIR$/Gopkg.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
-          <caret line="375" column="33" selection-start-line="375" selection-start-column="33" selection-end-line="375" selection-end-column="33" />
+          <caret line="406" column="33" selection-start-line="406" selection-start-column="33" selection-end-line="406" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -215,8 +215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gopkg.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="148">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
         </state>
       </provider>
     </entry>
