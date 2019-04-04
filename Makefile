@@ -1,4 +1,4 @@
-PACKAGE := github.com/aspenmesh/istio-client-go
+PACKAGE := github.com/ivelichkovich/istio-client-go
 
 ifeq ($(BRANCH_NAME)$(BUILD_ID),)
   BUILDER_TAG := istio-client-go-builder
@@ -15,7 +15,7 @@ DEPS_ALL := $(foreach dir, $(DIRS), $(wildcard $(dir)/*.go))
 GENERATED_FILES_PATTERN := %zz_generated.deepcopy.go
 DEPS := $(filter-out $(GENERATED_FILES_PATTERN), $(DEPS_ALL))
 GENERATED_FILES := $(filter $(GENERATED_FILES_PATTERN), $(DEPS_ALL))
-BOILERPLATE := aspenmesh-boilerplate.go.txt
+BOILERPLATE := ivelichkovich-boilerplate.go.txt
 
 GROUP_VERSIONS := "networking:v1alpha3, authentication:v1alpha1"
 
