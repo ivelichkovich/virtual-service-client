@@ -386,8 +386,8 @@
   revision = "4022682532b3b46b46a31b4c6150cbf55174cf0f"
 
 [[projects]]
-  branch = "release-1.10"
-  digest = "1:34b0b3400ffdc2533ed4ea23721956638c2776ba49ca4c5def71dddcf0cdfd9b"
+  branch = "release-1.11"
+  digest = "1:332f5b5962cb4766ee8db261b948ec6c27a79a0006f1c638b4cbb4a203069aaf"
   name = "k8s.io/code-generator"
   packages = [
     "cmd/client-gen",
@@ -401,7 +401,7 @@
     "pkg/util",
   ]
   pruneopts = ""
-  revision = "9de8e796a74d16d2a285165727d04c185ebca6dc"
+  revision = "f8cba74510f397bac80157a6c4ccb0ffbc31b9d0"
 
 [[projects]]
   branch = "master"
