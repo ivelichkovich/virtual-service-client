@@ -251,12 +251,12 @@
   version = "v2.2.1"
 
 [[projects]]
-  branch = "release-1.1"
-  digest = "1:7bc0b7aaae9286c4ea15ec9d83cb97cb424046caa793a5b6b3b22b215d86dfe3"
+  branch = "master"
+  digest = "1:afe335d74705ed3e3ef78eeb128c6f2002f88f445fe10d2ab09c8f428030992e"
   name = "istio.io/api"
   packages = ["networking/v1alpha3"]
   pruneopts = "NUT"
-  revision = "8b08748fc2b90fb5afc45bc15cc0584026884097"
+  revision = "6b8d1849e7f44ef523b4442af69b57ddc960d38b"
 
 [[projects]]
   branch = "release-1.11"
@@ -297,8 +297,8 @@
   revision = "912cbe2bfef3d832db29f9d3125307fe907102e9"
 
 [[projects]]
-  branch = "release-1.12"
-  digest = "1:e4957e6d4924300e40e590784853d4c119718e06f0505cc1dff95bcab10e6d33"
+  branch = "release-1.11"
+  digest = "1:d65cc96a7b043ac5cb753d87ff5ac43e273b210b497ce1bc0b4817852282923a"
   name = "k8s.io/apimachinery"
   packages = [
     "pkg/api/errors",
@@ -330,7 +330,6 @@
     "pkg/util/intstr",
     "pkg/util/json",
     "pkg/util/mergepatch",
-    "pkg/util/naming",
     "pkg/util/net",
     "pkg/util/runtime",
     "pkg/util/sets",
@@ -345,7 +344,7 @@
     "third_party/forked/golang/reflect",
   ]
   pruneopts = "NUT"
-  revision = "01f179d85dbce0f2e0e4351a92394b38694b7cae"
+  revision = "c182ff3b98419e7305cc361fd1811988591656cf"
 
 [[projects]]
   branch = "release-8.0"
@@ -384,8 +383,8 @@
   revision = "4022682532b3b46b46a31b4c6150cbf55174cf0f"
 
 [[projects]]
-  branch = "release-1.12"
-  digest = "1:8108815d1aef9159daabdb3f0fcef04a88765536daf0c0cd29a31fdba135ee54"
+  branch = "release-1.11"
+  digest = "1:332f5b5962cb4766ee8db261b948ec6c27a79a0006f1c638b4cbb4a203069aaf"
   name = "k8s.io/code-generator"
   packages = [
     "cmd/client-gen",
@@ -399,7 +398,7 @@
     "pkg/util",
   ]
   pruneopts = ""
-  revision = "b1289fc74931d4b6b04bd1a259acfc88a2cb0a66"
+  revision = "f8cba74510f397bac80157a6c4ccb0ffbc31b9d0"
 
 [[projects]]
   branch = "master"
@@ -435,6 +434,7 @@
     "k8s.io/apimachinery/pkg/runtime/schema",
     "k8s.io/apimachinery/pkg/runtime/serializer",
     "k8s.io/apimachinery/pkg/types",
+    "k8s.io/apimachinery/pkg/util/runtime",
     "k8s.io/apimachinery/pkg/watch",
     "k8s.io/client-go/discovery",
     "k8s.io/client-go/discovery/fake",
