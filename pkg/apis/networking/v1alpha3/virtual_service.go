@@ -29,11 +29,11 @@ type VirtualService struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`
 
-	Spec VirtualServiceSpec `json:"spec"`
+	Spec istiov1alpha3.VirtualService `json:"spec"`
 }
 
 func (vs *VirtualService) GetSpecMessage() proto.Message {
-	return &vs.Spec.VirtualService
+	return &vs.Spec
 }
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
