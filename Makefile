@@ -1,9 +1,9 @@
-PACKAGE := github.com/ivelichkovich/istio-client-go
+PACKAGE := github.com/ivelichkovich/virtual-service-client
 
 ifeq ($(BRANCH_NAME)$(BUILD_ID),)
-  BUILDER_TAG := istio-client-go-builder
+  BUILDER_TAG := virtual-service-client-builder
 else
-  BUILDER_TAG := localhost:5000/istio-client-go:${BRANCH_NAME}-${BUILD_ID}
+  BUILDER_TAG := localhost:5000/virtual-service-client:${BRANCH_NAME}-${BUILD_ID}
 endif
 
 # pkg/apis is the location for CRD APIs.
@@ -17,9 +17,9 @@ DEPS := $(filter-out $(GENERATED_FILES_PATTERN), $(DEPS_ALL))
 GENERATED_FILES := $(filter $(GENERATED_FILES_PATTERN), $(DEPS_ALL))
 BOILERPLATE := ivelichkovich-boilerplate.go.txt
 
-GROUP_VERSIONS := "networking:v1alpha3, authentication:v1alpha1"
+GROUP_VERSIONS := "networking:v1alpha3"
 
-all: generate-code test
+all: generate-code
 
 generate-code: dev-setup
 	./vendor/k8s.io/code-generator/generate-groups.sh all \

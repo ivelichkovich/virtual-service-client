@@ -12,8 +12,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// +k8s:deepcopy-gen=package
 
-// Package v1alpha3 is the v1alpha3 version of the networking.istio.io API.
+// +k8s:deepcopy-gen=package
+// +k8s:defaulter-gen=TypeMeta
 // +groupName=networking.istio.io
 package v1alpha3
