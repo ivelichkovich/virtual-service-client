@@ -1,6 +1,6 @@
 /*
-Portions Copyright 2018 The Kubernetes Authors.
-Portions Copyright 2018 Aspen Mesh Authors.
+Portions Copyright 2019 The Kubernetes Authors.
+Portions Copyright 2019 Aspen Mesh Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -63,7 +63,7 @@ func (c *FakePolicies) List(opts v1.ListOptions) (result *v1alpha1.PolicyList, e
 	if label == nil {
 		label = labels.Everything()
 	}
-	list := &v1alpha1.PolicyList{}
+	list := &v1alpha1.PolicyList{ListMeta: obj.(*v1alpha1.PolicyList).ListMeta}
 	for _, item := range obj.(*v1alpha1.PolicyList).Items {
 		if label.Matches(labels.Set(item.Labels)) {
 			list.Items = append(list.Items, item)

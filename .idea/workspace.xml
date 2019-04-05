@@ -3,7 +3,54 @@
   <component name="ChangeListManager">
     <list default="true" id="1c3d63e8-fea8-45ee-8a16-930a4ac5b3f6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aspenmesh-boilerplate.go.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ivelichkovich-boilerplate.go.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/apis/authentication/v1alpha1/zz_generated.deepcopy.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/apis/authentication/v1alpha1/zz_generated.deepcopy.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/virtual_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/virtual_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/zz_generated.deepcopy.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/zz_generated.deepcopy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/clientset.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/clientset.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/fake/clientset_generated.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/fake/clientset_generated.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/fake/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/fake/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/fake/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/fake/register.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/scheme/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/scheme/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/scheme/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/scheme/register.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/authentication_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/authentication_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/fake_authentication_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/fake_authentication_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/fake_meshpolicy.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/fake_meshpolicy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/fake_policy.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/fake_policy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/generated_expansion.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/generated_expansion.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/meshpolicy.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/meshpolicy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/policy.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/policy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/destinationrule.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/destinationrule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/fake_destinationrule.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/fake_destinationrule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/fake_networking_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/fake_networking_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/fake_virtualservice.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/fake_virtualservice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/generated_expansion.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/generated_expansion.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/networking_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/networking_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/virtualservice.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/virtualservice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/v1alpha1/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/v1alpha1/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/v1alpha1/meshpolicy.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/v1alpha1/meshpolicy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/v1alpha1/policy.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/v1alpha1/policy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/factory.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/generic.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/generic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/internalinterfaces/factory_interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/internalinterfaces/factory_interfaces.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/v1alpha3/destinationrule.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/v1alpha3/destinationrule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/v1alpha3/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/v1alpha3/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/v1alpha3/virtualservice.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/v1alpha3/virtualservice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/listers/authentication/v1alpha1/expansion_generated.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/listers/authentication/v1alpha1/expansion_generated.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/listers/authentication/v1alpha1/meshpolicy.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/listers/authentication/v1alpha1/meshpolicy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/listers/authentication/v1alpha1/policy.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/listers/authentication/v1alpha1/policy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/destinationrule.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/destinationrule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/expansion_generated.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/expansion_generated.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/virtualservice.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/virtualservice.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,23 +61,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="virtualservice.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/virtualservice.go">
+      <file leaf-file-name="Gopkg.toml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gopkg.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="333">
+              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="virtual_service.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pkg/apis/networking/v1alpha3/virtual_service.go">
+      <file leaf-file-name="Gopkg.lock" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gopkg.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-              <folding>
-                <element signature="e#639#782#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -40,6 +84,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>aspenmesh</find>
+      <find>VirtualService</find>
+      <find>protobuf</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -60,10 +106,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gopkg.lock" />
-        <option value="$PROJECT_DIR$/Gopkg.toml" />
         <option value="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/virtualservice.go" />
         <option value="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/virtual_service.go" />
+        <option value="$PROJECT_DIR$/Gopkg.lock" />
+        <option value="$PROJECT_DIR$/Gopkg.toml" />
       </list>
     </option>
   </component>
@@ -98,79 +144,7 @@
             <path>
               <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-              <item name="networking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-              <item name="networking" type="462c0819:PsiDirectoryNode" />
-              <item name="v1alpha3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="clientset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="clientset" type="462c0819:PsiDirectoryNode" />
-              <item name="versioned" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="clientset" type="462c0819:PsiDirectoryNode" />
-              <item name="versioned" type="462c0819:PsiDirectoryNode" />
-              <item name="typed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="clientset" type="462c0819:PsiDirectoryNode" />
-              <item name="versioned" type="462c0819:PsiDirectoryNode" />
-              <item name="typed" type="462c0819:PsiDirectoryNode" />
-              <item name="networking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="clientset" type="462c0819:PsiDirectoryNode" />
-              <item name="versioned" type="462c0819:PsiDirectoryNode" />
-              <item name="typed" type="462c0819:PsiDirectoryNode" />
-              <item name="networking" type="462c0819:PsiDirectoryNode" />
-              <item name="v1alpha3" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,7 +225,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aspenmesh-boilerplate.go.txt">
+    <entry file="file://$PROJECT_DIR$/ivelichkovich-boilerplate.go.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Gopkg.lock">
@@ -290,27 +264,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gopkg.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aspenmesh-boilerplate.go.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gopkg.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="406" column="33" selection-start-line="406" selection-start-column="33" selection-end-line="406" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -356,18 +313,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/virtualservice.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/destinationrule.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/virtualservice.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pkg/apis/networking/v1alpha3/virtual_service.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="168">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="e#639#782#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivelichkovich-boilerplate.go.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gopkg.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gopkg.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
         </state>
       </provider>
     </entry>
