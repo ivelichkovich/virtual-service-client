@@ -260,15 +260,15 @@
   version = "v2.2.1"
 
 [[projects]]
-  branch = "release-1.1"
-  digest = "1:36343cd3a6ae393c2c61d25231a09cca72c4d94cb5ec741eaf90584e33722454"
+  branch = "release-1.0"
+  digest = "1:c03bf532fe5938c522237268b1f5f5786430a7ce79dc222cf7b96e85c932a164"
   name = "istio.io/api"
   packages = [
     "authentication/v1alpha1",
     "networking/v1alpha3",
   ]
   pruneopts = "NUT"
-  revision = "cf912ceffb25353871734e526c8ae099827b2823"
+  revision = "6bf9d6613f65c2754a3d90ae916e1806e9d74175"
 
 [[projects]]
   branch = "release-1.12"
