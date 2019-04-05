@@ -1,65 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c3d63e8-fea8-45ee-8a16-930a4ac5b3f6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopkg.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/authentication/register.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/authentication/v1alpha1/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/authentication/v1alpha1/meshpolicy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/authentication/v1alpha1/policy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/authentication/v1alpha1/register.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/authentication/v1alpha1/zz_generated.deepcopy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/destination_rule.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/register.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/virtual_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/virtual_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/zz_generated.deepcopy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/clientset.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/fake/clientset_generated.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/fake/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/fake/register.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/scheme/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/scheme/register.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/authentication_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/fake_authentication_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/fake_meshpolicy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake/fake_policy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/generated_expansion.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/meshpolicy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/authentication/v1alpha1/policy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/destinationrule.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/fake_destinationrule.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/fake_networking_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake/fake_virtualservice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/generated_expansion.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/networking_client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/virtualservice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/v1alpha1/interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/v1alpha1/meshpolicy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/authentication/v1alpha1/policy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/factory.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/generic.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/internalinterfaces/factory_interfaces.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/v1alpha3/destinationrule.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/v1alpha3/interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/informers/externalversions/networking/v1alpha3/virtualservice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/listers/authentication/v1alpha1/expansion_generated.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/listers/authentication/v1alpha1/meshpolicy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/listers/authentication/v1alpha1/policy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/destinationrule.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/expansion_generated.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/virtualservice.go" beforeDir="false" />
-    </list>
+    <list default="true" id="1c3d63e8-fea8-45ee-8a16-930a4ac5b3f6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,10 +12,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="virtual_service.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/apis/networking/v1alpha3/virtual_service.go">
+        <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/apis/networking/v1alpha3/virtual_service.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+            <state relative-caret-position="138">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="e#639#782#0" expanded="true" />
               </folding>
@@ -81,8 +23,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Makefile">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../virtual-service-client/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
@@ -90,20 +32,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/apis/networking/register.go">
+      <file leaf-file-name="register.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/apis/networking/register.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="7" selection-end-line="19" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doc.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/apis/networking/v1alpha3/doc.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="register.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/apis/networking/v1alpha3/register.go">
+        <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/apis/networking/v1alpha3/register.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
               <folding>
                 <element signature="e#639#838#0" expanded="true" />
               </folding>
@@ -118,11 +69,16 @@
       <find>aspenmesh</find>
       <find>VirtualService</find>
       <find>protobuf</find>
+      <find>istio-client-go</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>ivelichkovich</replace>
+      <replace>virtual-service-client</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../virtual-service-client</dir>
+    </dirStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
@@ -145,6 +101,7 @@
         <option value="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/register.go" />
         <option value="$PROJECT_DIR$/pkg/apis/networking/v1alpha3/virtual_service.go" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/../virtual-service-client/pkg/apis/networking/v1alpha3/register.go" />
       </list>
     </option>
   </component>
@@ -174,12 +131,44 @@
           <expand>
             <path>
               <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
+              <item name="virtual-service-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="istio-client-go" type="462c0819:PsiDirectoryNode" />
+              <item name="virtual-service-client" type="462c0819:PsiDirectoryNode" />
               <item name="pkg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="virtual-service-client" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="virtual-service-client" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+              <item name="networking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="virtual-service-client" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+              <item name="networking" type="462c0819:PsiDirectoryNode" />
+              <item name="v1alpha3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="virtual-service-client" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="istio-client-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="virtual-service-client" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -287,10 +276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivelichkovich-boilerplate.go.txt">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/ivelichkovich-boilerplate.go.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gopkg.lock">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/Gopkg.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6585">
           <caret line="439" column="33" selection-start-line="439" selection-start-column="33" selection-end-line="439" selection-end-column="33" />
@@ -300,7 +289,7 @@
     <entry file="file://$PROJECT_DIR$/pkg/apis/authentication/v1alpha1/doc.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gopkg.toml">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/Gopkg.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
@@ -329,20 +318,20 @@
     <entry file="file://$PROJECT_DIR$/pkg/apis/authentication/v1alpha1/doc.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/client/clientset/versioned/scheme/register.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/client/clientset/versioned/scheme/register.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/doc.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/client/clientset/versioned/typed/networking/v1alpha3/doc.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/generated_expansion.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/client/clientset/versioned/typed/networking/v1alpha3/generated_expansion.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/client/clientset/versioned/clientset.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/client/clientset/versioned/clientset.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
@@ -352,21 +341,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/networking_client.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/client/clientset/versioned/typed/networking/v1alpha3/networking_client.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/istio.io/api/networking/v1alpha3/virtual_service.pb.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/vendor/istio.io/api/networking/v1alpha3/virtual_service.pb.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="336" column="86" selection-start-line="336" selection-start-column="72" selection-end-line="336" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/client/clientset/versioned/typed/networking/v1alpha3/virtualservice.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/client/clientset/versioned/typed/networking/v1alpha3/virtualservice.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
@@ -376,25 +365,25 @@
     <entry file="file://$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/destinationrule.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/client/listers/networking/v1alpha3/virtualservice.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/client/listers/networking/v1alpha3/virtualservice.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivelichkovich-boilerplate.go.txt">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/ivelichkovich-boilerplate.go.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gopkg.lock">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/Gopkg.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/apis/networking/v1alpha3/zz_generated.deepcopy.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/apis/networking/v1alpha3/zz_generated.deepcopy.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1887" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gopkg.toml">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/Gopkg.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
@@ -404,51 +393,51 @@
     <entry file="file://$PROJECT_DIR$/pkg/apis/networking/v1alpha3/destination_rule.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/apis/networking/v1alpha3/doc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/scheme.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/vendor/k8s.io/apimachinery/pkg/runtime/scheme.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="171" column="60" selection-start-line="171" selection-start-column="55" selection-end-line="171" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/apis/networking/register.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" selection-end-line="19" />
+        <state relative-caret-position="153">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/apis/networking/v1alpha3/virtual_service.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/apis/networking/v1alpha3/doc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-          <folding>
-            <element signature="e#639#782#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/apis/networking/v1alpha3/register.go">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/apis/networking/v1alpha3/register.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
           <folding>
             <element signature="e#639#838#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/apis/networking/v1alpha3/virtual_service.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="138">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#639#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../virtual-service-client/pkg/apis/networking/register.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
