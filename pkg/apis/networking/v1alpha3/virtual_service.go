@@ -39,3 +39,8 @@ type VirtualServiceList struct {
 
 	Items []VirtualService `json:"items"`
 }
+
+func (in *istiov1alpha3.VirtualService) DeepCopyInto(out *istiov1alpha3.VirtualService) {
+	*out = *in
+	return
+}
