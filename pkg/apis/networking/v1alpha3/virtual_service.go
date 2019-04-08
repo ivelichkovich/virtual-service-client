@@ -27,7 +27,7 @@ type VirtualService struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`
 
-	Spec istiov1alpha3.VirtualService `json:"spec"`
+	Spec MyVirtualService `json:"spec"`
 }
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
@@ -40,7 +40,11 @@ type VirtualServiceList struct {
 	Items []VirtualService `json:"items"`
 }
 
-func (in *istiov1alpha3.VirtualService) DeepCopyInto(out *istiov1alpha3.VirtualService) {
+
+type MyVirtualService istiov1alpha3.VirtualService
+
+
+func (in *MyVirtualService) DeepCopyInto(out *MyVirtualService) {
 	*out = *in
 	return
 }
