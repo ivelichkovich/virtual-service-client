@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/istio-client-go.iml" filepath="$PROJECT_DIR$/.idea/istio-client-go.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/virtual-service-client.iml" filepath="$PROJECT_DIR$/.idea/virtual-service-client.iml" />
     </modules>
   </component>
 </project>

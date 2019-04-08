@@ -41,11 +41,11 @@ required = [
 # https://github.com/kubernetes/code-generator/issues/6
 [[constraint]]
   name = "k8s.io/code-generator"
-  branch = "release-1.11"
+  branch = "release-1.10"
 
 [[constraint]]
   name = "k8s.io/apimachinery"
-  branch = "release-1.11"
+  branch = "release-1.10"
 
 [[constraint]]
   name = "istio.io/api"
@@ -53,7 +53,7 @@ required = [
 
 [[constraint]]
   name = "k8s.io/client-go"
-  branch = "release-8.0"
+  branch = "release-7.0"
 
 [prune]
   non-go = true
